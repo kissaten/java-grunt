@@ -40,7 +40,7 @@
         <version>1.4.1</version>
         <configuration>
           <gruntOptions>
-            <gruntOption>--verbose</gruntOption>
+            <gruntOption>--verbose --gruntfile ${session.executionRootDirectory}/Gruntfile.js</gruntOption>
           </gruntOptions>
           <gruntExecutable>${session.executionRootDirectory}/node_modules/.bin/grunt</gruntExecutable>
         </configuration>

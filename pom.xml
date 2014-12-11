@@ -39,17 +39,17 @@
         <artifactId>grunt-maven-plugin</artifactId>
         <version>1.4.1</version>
         <configuration>
-          <npmOfflineModulesFilePath>${session.executionRootDirectory}/node_modules</npmOfflineModulesFilePath>
+          <!-- <npmOfflineModulesFilePath>${session.executionRootDirectory}/node_modules</npmOfflineModulesFilePath> -->
           <gruntOptions>
-            <gruntOption>--verbose --gruntfile ${session.executionRootDirectory}/Gruntfile.js</gruntOption>
+            <gruntOption>--verbose</gruntOption>
           </gruntOptions>
-          <gruntExecutable>${session.executionRootDirectory}/node_modules/.bin/grunt</gruntExecutable>
+          <!-- <gruntExecutable>${session.executionRootDirectory}/node_modules/.bin/grunt</gruntExecutable> -->
         </configuration>
         <executions>
           <execution>
             <goals>
               <goal>create-resources</goal>
-              <!-- <goal>npm</goal> -->
+              <goal>npm</goal>
               <!-- or npm-offline if npm failure is not an option -->
               <!-- <goal>bower</goal> -->
               <goal>grunt</goal>

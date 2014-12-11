@@ -1,0 +1,6 @@
+{
+  "name": "java-grunt",
+  "dependencies": {
+    "grunt-cli": "0.1.13"
+  }
+}

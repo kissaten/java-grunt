@@ -47,7 +47,7 @@
           <execution>
             <goals>
               <goal>create-resources</goal>
-              <!-- <goal>npm</goal> -->
+              <goal>npm</goal>
               <!-- or npm-offline if npm failure is not an option -->
               <!-- <goal>bower</goal> -->
               <goal>grunt</goal>

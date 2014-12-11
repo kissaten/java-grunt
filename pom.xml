@@ -39,6 +39,7 @@
         <artifactId>grunt-maven-plugin</artifactId>
         <version>1.4.1</version>
         <configuration>
+          <npmOfflineModulesFilePath>${session.executionRootDirectory}/node_modules</npmOfflineModulesFilePath>
           <gruntOptions>
             <gruntOption>--verbose --gruntfile ${session.executionRootDirectory}/Gruntfile.js</gruntOption>
           </gruntOptions>

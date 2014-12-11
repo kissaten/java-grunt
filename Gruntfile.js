@@ -4,14 +4,11 @@ module.exports = function(grunt) {
   grunt.initConfig({
     uglify: {
       core: {
-        options: {
-          mangle: false
-        },
         files: [{
           expand: true,
-          src: [
-            'src/main/resources/public/js/**/*.js'
-          ],
+          cwd: 'src/main/resources',
+          src: 'public/js/**/*.js',
+          dest: "target/classes",
           ext: '.min.js'
         }]
       }

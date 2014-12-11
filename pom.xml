@@ -42,7 +42,7 @@
           <gruntOptions>
             <gruntOption>--verbose</gruntOption>
           </gruntOptions>
-          <gruntExecutable>node_modules/.bin/grunt</gruntExecutable>
+          <gruntExecutable>${session.executionRootDirectory}/node_modules/.bin/grunt</gruntExecutable>
         </configuration>
         <executions>
           <execution>
